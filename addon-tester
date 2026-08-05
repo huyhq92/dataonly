@@ -1,0 +1,140 @@
+const { addonBuilder, publishHTTP } = require('stremio-addon-sdk');
+const axios = require('axios');
+
+// 1. Khởi tạo Manifest dựa trên cấu hình OPhim gốc
+const manifest = {
+    id: 'org.stremio.ophim.addon',
+    version: '1.0.4',
+    name: 'OPhim Addon',
+    description: 'Xem phim tổng hợp từ kho dữ liệu OPhim dành riêng cho Thầy HUY',
+    resources: ['catalog', 'meta', 'stream'],
+    types: ['movie', 'series'],
+    catalogs: [
+        { type: 'movie', id: 'ophim_moi', name: 'OPhim - Mới Cập Nhật' },
+        { type: 'movie', id: 'phim-le', name: 'OPhim - Phim Lẻ' },
+        { type: 'series', id: 'phim-bo', name: 'OPhim - Phim Bộ' },
+        { type: 'movie', id: 'hoat-hinh', name: 'OPhim - Hoạt Hình' }
+    ],
+    idPrefixes: ['ophim_']
+};
+
+const builder = new addonBuilder(manifest);
+const BASE_API = 'https://ophim1.com/v1/api';
+
+// Hàm hỗ trợ xử lý ảnh chuẩn từ plugin gốc
+function getImageUrl(path) {
+    if (!path) return '';
+    if (path.indexOf('http') === 0) return path;
+    return 'https://img.ophim.live/uploads/movies/' + path;
+}
+
+// 2. Xử lý danh sách phim (Catalog Handler)
+builder.defineCatalogHandler(async function(args) {
+    try {
+        let url = `${BASE_API}/danh-sach/${args.id === 'ophim_moi' ? 'phim-moi' : args.id}?page=1`;
+        const response = await axios.get(url);
+        const items = response.data?.data?.items || [];
+
+        const metas = items.map(item => ({
+            id: `ophim_${item.slug}`,
+            type: args.type,
+            name: item.name,
+            poster: getImageUrl(item.thumb_url),
+            background: getImageUrl(item.poster_url),
+            year: item.year || 0
+        }));
+
+        return { metas };
+    } catch (e) {
+        return { metas: [] };
+    }
+});
+
+// 3. Xử lý chi tiết phim (Meta Handler)
+builder.defineMetaHandler(async function(args) {
+    try {
+        const slug = args.id.replace('ophim_', '');
+        const response = await axios.get(`${BASE_API}/phim/${slug}`);
+        const movie = response.data?.movie || response.data?.data?.item || {};
+        const episodes = response.data?.episodes || response.data?.data?.item?.episodes || [];
+
+        // Chuyển đổi danh sách tập phim cho Stremio
+        let videoList = [];
+        episodes.forEach(server => {
+            if (server.server_data) {
+                server.server_data.forEach((ep, index) => {
+                    videoList.push({
+                        id: `${args.id}_e${index + 1}`,
+                        title: `${server.server_name} - ${ep.name}`,
+                        released: new Date().toISOString(),
+                        episode: index + 1,
+                        season: 1
+                    });
+                });
+            }
+        });
+
+        return {
+            meta: {
+                id: args.id,
+                type: args.type,
+                name: movie.name || '',
+                poster: getImageUrl(movie.thumb_url),
+                background: getImageUrl(movie.poster_url),
+                description: (movie.content || '').replace(/<[^>]*>/g, ''),
+                releaseInfo: String(movie.year || ''),
+                genres: (movie.category || []).map(c => c.name),
+                videos: videoList
+            }
+        };
+    } catch (e) {
+        return { meta: null };
+    }
+});
+
+// 4. Xử lý lấy link phát video (Stream Handler)
+builder.defineStreamHandler(async function(args) {
+    try {
+        // Tách ID phim và tìm tập tương ứng
+        const parts = args.id.split('_e');
+        const movieSlug = parts[0].replace('ophim_', '');
+        const epIndex = parseInt(parts[1]) - 1 || 0;
+
+        const response = await axios.get(`${BASE_API}/phim/${movieSlug}`);
+        const episodes = response.data?.episodes || response.data?.data?.item?.episodes || [];
+
+        let streamUrl = '';
+        for (let server of episodes) {
+            if (server.server_data && server.server_data[epIndex]) {
+                streamUrl = server.server_data[epIndex].link_m3u8 || server.server_data[epIndex].link_embed;
+                break;
+            }
+        }
+
+        if (!streamUrl) return { streams: [] };
+
+        return {
+            streams: [
+                {
+                    title: 'OPhim HD (Vietsub)',
+                    url: streamUrl,
+                    behaviorHints: {
+                        notWebReady: false,
+                        proxyHeaders: {
+                            request: {
+                                "User-Agent": "Mozilla/5.0",
+                                "Referer": "https://ophim1.com"
+                            }
+                        }
+                    }
+                }
+            ]
+        };
+    } catch (e) {
+        return { streams: [] };
+    }
+});
+
+// Chạy server ở cổng 7000
+publishHTTP(builder.interface);
+console.log("Addon OPhim đang chạy tại: http://127.0.0.1:7000/manifest.json");
