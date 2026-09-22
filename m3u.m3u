@@ -1,20 +1,20 @@
-#EXTINF:-1 tvg-id="vinhlong1hd" group-title="Vĩnh Long" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/thvl1hd.png",Vĩnh Long 1
+#EXTINF:-1 tvg-id="vinhlong1hd" group-title="Vĩnh Long" tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL1.webp",Vĩnh Long 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://live.fptplay53.net/live/media/vinhlong1/live247-hls-avc/vinhlong1-avc1_5600000=10000-mp4a_131600=20000.m3u8
 
-#EXTINF:-1 tvg-id="vinhlong2hd" group-title="Vĩnh Long" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/thvl2hd.png",Vĩnh Long 2
+#EXTINF:-1 tvg-id="vinhlong2hd" group-title="Vĩnh Long" tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL2.webp",Vĩnh Long 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://live.fptplay53.net/live/media/vinhlong2/live247-hls-avc/vinhlong2-avc1_5600000=10000-mp4a_131600=20000.m3u8
 
-#EXTINF:-1 tvg-id="vinhlong3hd" group-title="Vĩnh Long" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/thvl3hd.png",Vĩnh Long 3
+#EXTINF:-1 tvg-id="vinhlong3hd" group-title="Vĩnh Long" tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL3.webp",Vĩnh Long 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://live.fptplay53.net/live/media/vinhlong3/live247-hls-avc/vinhlong3-avc1_5600000=10000-mp4a_131600=20000.m3u8
 
-#EXTINF:-1 tvg-id="vinhlong4hd" group-title="Vĩnh Long" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/thvl4hd.png",Vĩnh Long 4
+#EXTINF:-1 tvg-id="vinhlong4hd" group-title="Vĩnh Long" tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL4.webp",Vĩnh Long 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://live.fptplay53.net/epzhd2/vinhlong4-hd_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="vinhlong5hd" group-title="Vĩnh Long" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/thvl5hd.png",Vĩnh Long 5
+#EXTINF:-1 tvg-id="vinhlong5hd" group-title="Vĩnh Long" tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL5.webp",Vĩnh Long 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://live.fptplay53.net/epzhd2/vinhlong5hd_vhls.smil/chunklist_b5000000.m3u8
 
