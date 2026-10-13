@@ -40,11 +40,11 @@ https://vips-livecdn.fptplay.net/live/media/vtv5/live247-hls-avc/vtv5-avc1_56000
 
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/vtv5hdtnb.png",VTV5 Tây Nam Bộ
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://live.fptplay53.net/live/media/vtv5tnb/live-hls-avc/vtv5tnb-avc1_4000000=10000-mp4a_131600=20000.m3u8
+https://vips-livecdn.fptplay.net/live/media/vtv5tnb/live-hls-avc/vtv5tnb-avc1_4000000=10000-mp4a_131600=20000.m3u8
 
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/vtv5hdtn.png",VTV5 Tây Nguyên
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://live.fptplay53.net/live/media/vtv5tn/live-hls-avc/vtv5tn-avc1_4000000=10000-mp4a_131600=20000.m3u8
+https://vips-livecdn.fptplay.net/live/media/vtv5tn/live-hls-avc/vtv5tn-avc1_4000000=10000-mp4a_131600=20000.m3u8
 
 #EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/vtv6hd.png",VTV6 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
