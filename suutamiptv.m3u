@@ -86,7 +86,7 @@ https://freem3u.xyz/api/live/play.m3u8?vid=192
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
 https://freem3u.xyz/api/live/play.m3u8?vid=9
 
-#EXTINF:-1 tvg-id="htv5" group-title="HTV" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/htv7hd.png",HTV5 
+#EXTINF:-1 tvg-id="htv5" group-title="HTV" tvg-logo="https://i.imgur.com/jeunb3Y.png",HTV5 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
 https://freem3u.xyz/api/live/play.m3u8?vid=151
 
