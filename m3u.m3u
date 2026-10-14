@@ -704,7 +704,7 @@ https://vietmitv.id.vn/c.php?k=cea78ea
 #EXTINF:-1 tvg-id="tvb-vietnam" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/tvb-vietnam.png", TVB Việt Nam
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=acbd0d4
+https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist1080p.m3u8
 
 #EXTINF:-1 tvg-id="warnertv" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/warnertv.png", Warner TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
