@@ -50,6 +50,16 @@ https://vietmitv.id.vn/c.php?k=a5c26d0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vietmitv.id.vn/c.php?k=ae8ecf4
 
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vtv5hdtnb.png" tvg-id="vtv5hdtnb" tvg-name="VTV5 Tây Nam Bộ" group-title="VTV",VTV5 Tây Nam Bộ
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vietmitv.id.vn/c.php?k=844f585
+
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vtv5hdtn.png" tvg-id="vtv5hdtn" tvg-name="VTV5 Tây Nguyên" group-title="VTV",VTV5 Tây Nguyên
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vietmitv.id.vn/c.php?k=f954fd8
+
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vtv6hd.png"  tvg-id="vtv6hd" tvg-name="VTV6" group-title="VTV",VTV6
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -74,16 +84,6 @@ https://vietmitv.id.vn/c.php?k=74d6bd9
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vietmitv.id.vn/c.php?k=4802025
-
-#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vtv5hdtnb.png" tvg-id="vtv5hdtnb" tvg-name="VTV5 Tây Nam Bộ" group-title="VTV",VTV5 Tây Nam Bộ
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=844f585
-
-#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vtv5hdtn.png" tvg-id="vtv5hdtn" tvg-name="VTV5 Tây Nguyên" group-title="VTV",VTV5 Tây Nguyên
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=f954fd8
 
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vietnamtoday.png" tvg-id="vietnamtoday" tvg-name="VietNam Today" group-title="VTV",VietNam Today
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -349,6 +349,10 @@ https://vietmitv.id.vn/c.php?k=0e7df9a
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vietmitv.id.vn/c.php?k=11dc023
+
+#EXTINF:-1 tvg-id="htv5" group-title="HTV" tvg-logo="https://i.imgur.com/jeunb3Y.png",HTV5 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+https://freem3u.xyz/api/live/play.m3u8?vid=151
 
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/htv7hd.png" tvg-id="htv7hd" tvg-name="HTV7" group-title="HTV",HTV7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
