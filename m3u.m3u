@@ -3,17 +3,17 @@
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL1.webp" tvg-id="thvl1hd" tvg-name="Vĩnh Long 1" group-title="Địa Phương",Vĩnh Long 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://freem3u.xyz/api/live/play.m3u8?fid=43
+https://dethich.pw/thvl1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL2.webp" tvg-id="thvl2hd" tvg-name="Vĩnh Long 2" group-title="Địa Phương",Vĩnh Long 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://freem3u.xyz/api/live/play.m3u8?fid=237
+https://dethich.pw/thvl2/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL3.webp" tvg-id="thvl3hd" tvg-name="Vĩnh Long 3" group-title="Địa Phương",Vĩnh Long 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live.fptplay53.net/live/media/vinhlong3/live247-hls-avc/index.m3u8
+https://dethich.pw/thvl3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL4.webp" tvg-id="thvl4hd" tvg-name="Vĩnh Long 4" group-title="Địa Phương",Vĩnh Long 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
