@@ -68,22 +68,22 @@ https://vietmitv.id.vn/c.php?k=b70d018
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vtv7hd.png"  tvg-id="vtv7hd" tvg-name="VTV7" group-title="VTV",VTV7
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=7997b8a
+https://dethich.pw/vtv7/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vtv8hd.png"  tvg-id="vtv8hd" tvg-name="VTV8" group-title="VTV",VTV8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=561dba2
+https://dethich.pw/vtv8/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vtv9hd.png"  tvg-id="vtv9hd" tvg-name="VTV9" group-title="VTV",VTV9
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=74d6bd9
+https://dethich.pw/vtv9/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vtv10.png"  tvg-id="vtv10" tvg-name="VTV10" group-title="VTV",VTV10
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=4802025
+https://dethich.pw/vtv10/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vietnamtoday.png" tvg-id="vietnamtoday" tvg-name="VietNam Today" group-title="VTV",VietNam Today
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
