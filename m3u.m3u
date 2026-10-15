@@ -53,12 +53,12 @@ https://dethich.pw/vtv5/index.m3u8
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vtv5hdtnb.png" tvg-id="vtv5hdtnb" tvg-name="VTV5 Tây Nam Bộ" group-title="VTV",VTV5 Tây Nam Bộ
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=844f585
+https://dethich.pw/vtv5tnb/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vtv5hdtn.png" tvg-id="vtv5hdtn" tvg-name="VTV5 Tây Nguyên" group-title="VTV",VTV5 Tây Nguyên
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=f954fd8
+https://dethich.pw/vtv5tn/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vtv6hd.png"  tvg-id="vtv6hd" tvg-name="VTV6" group-title="VTV",VTV6
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
