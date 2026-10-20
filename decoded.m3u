@@ -1,30 +1,4 @@
 #EXTM3U url-tvg="https://epg.io.vn/epgc.xml"
-
-#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/thvl1hd.png" tvg-id="thvl1hd" tvg-name="Vĩnh Long 1" group-title="Địa Phương",Vĩnh Long 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=ddf8023
-
-#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/thvl2hd.png" tvg-id="thvl2hd" tvg-name="Vĩnh Long 2" group-title="Địa Phương",Vĩnh Long 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=05d10eb
-
-#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/thvl3hd.png" tvg-id="thvl3hd" tvg-name="Vĩnh Long 3" group-title="Địa Phương",Vĩnh Long 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=a7b34c2
-
-#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/thvl4hd.png" tvg-id="thvl4hd" tvg-name="Vĩnh Long 4" group-title="Địa Phương",Vĩnh Long 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=b128250
-
-#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/thvl5hd.png" tvg-id="thvl5hd" tvg-name="Vĩnh Long 5" group-title="Địa Phương",Vĩnh Long 5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=a0e1fce
-
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/vtv1hd.png"  tvg-id="vtv1hd" tvg-name="VTV1" group-title="VTV",VTV1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -99,6 +73,31 @@ https://vietmitv.id.vn/c.php?k=983c968
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vietmitv.id.vn/c.php?k=dbe430c
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL1.webp" tvg-id="thvl1hd" tvg-name="Vĩnh Long 1" group-title="Địa Phương",Vĩnh Long 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vietmitv.id.vn/c.php?k=ddf8023
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL2.webp" tvg-id="thvl2hd" tvg-name="Vĩnh Long 2" group-title="Địa Phương",Vĩnh Long 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vietmitv.id.vn/c.php?k=05d10eb
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL3.webp" tvg-id="thvl3hd" tvg-name="Vĩnh Long 3" group-title="Địa Phương",Vĩnh Long 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vietmitv.id.vn/c.php?k=a7b34c2
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL4.webp" tvg-id="thvl4hd" tvg-name="Vĩnh Long 4" group-title="Địa Phương",Vĩnh Long 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vietmitv.id.vn/c.php?k=b128250
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/huyhq92/dataonly/main/pic/THVL5.webp" tvg-id="thvl5hd" tvg-name="Vĩnh Long 5" group-title="Địa Phương",Vĩnh Long 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vietmitv.id.vn/c.php?k=a0e1fce
 
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/tayninhtv.png" tvg-id="tayninhtv" tvg-name="Tây Ninh" group-title="Địa Phương",Tây Ninh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -380,11 +379,6 @@ https://vietmitv.id.vn/c.php?k=25b9641
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vietmitv.id.vn/c.php?k=37b2310
 
-#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/htvccanhachd.png" tvg-id="htvccanhachd" tvg-name="HTVC Ca Nhạc" group-title="HTV",HTVC Ca Nhạc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=cd027ee
-
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/htvcphimhd.png" tvg-id="htvcphimhd" tvg-name="HTVC Phim" group-title="HTV",HTVC Phim
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -480,7 +474,7 @@ https://vietmitv.id.vn/c.php?k=a4d402a
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360173&token=a65645b1aa521305f07c577dc6a4c622
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360173&token=8d62dc97643a8e41816ddb6ce055272d
 https://vietmitv.id.vn/c.php?k=48a21fd
 
 #EXTINF:-1 tvg-id="onsportsplus" group-title="VTVcab" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/onsportsplus.png", ON SPORTS+ 
@@ -488,7 +482,7 @@ https://vietmitv.id.vn/c.php?k=48a21fd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360183&token=a65645b1aa521305f07c577dc6a4c622
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360183&token=8d62dc97643a8e41816ddb6ce055272d
 https://vietmitv.id.vn/c.php?k=be48ef9
 
 #EXTINF:-1 tvg-id="onfootball" group-title="VTVcab" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/onfootball.png", ON FOOTBALL
@@ -496,7 +490,7 @@ https://vietmitv.id.vn/c.php?k=be48ef9
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360174&token=a65645b1aa521305f07c577dc6a4c622
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360174&token=8d62dc97643a8e41816ddb6ce055272d
 https://vietmitv.id.vn/c.php?k=d53ed82
 
 #EXTINF:-1 tvg-id="onsportsnews" group-title="VTVcab" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/onsportsnews.png", ON SPORTS NEWS 
@@ -504,7 +498,7 @@ https://vietmitv.id.vn/c.php?k=d53ed82
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360170&token=a65645b1aa521305f07c577dc6a4c622
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360170&token=8d62dc97643a8e41816ddb6ce055272d
 https://vietmitv.id.vn/c.php?k=aac3295
 
 #EXTINF:-1 tvg-id="ongolf" group-title="VTVcab" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/ongolf.png", ON GOLF 
@@ -667,257 +661,257 @@ https://vietmitv.id.vn/c.php?k=2f77c6f
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a7c942778e874d43be92b8d0a0cd11b4:6d54358306571658ffdb952c6560688b
-https://vietmitv.id.vn/c.php?k=24b687d
+https://vietmitv.id.vn/c.php?k=bacd3fe1bac3a7b6
 
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="In The Box" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/hollywoodclassics.png", Hollywood Classics
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a7c942778e874d43be92b8d0a0cd11b4:6d54358306571658ffdb952c6560688b
-https://vietmitv.id.vn/c.php?k=8336b45
+https://vietmitv.id.vn/c.php?k=f4cb1aad7234519b
 
 #EXTINF:-1 tvg-id="boxhits" group-title="In The Box" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/boxhits.png", Box Hits
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a7c942778e874d43be92b8d0a0cd11b4:6d54358306571658ffdb952c6560688b
-https://vietmitv.id.vn/c.php?k=89eaacf
+https://vietmitv.id.vn/c.php?k=0bef0225e3257223
 
 #EXTINF:-1 tvg-id="musicbox" group-title="In The Box" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/musicbox.png", Music Box
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2942ed303e0d40c9b99c94c587bbf509:96cda24109734fb7920d799d58d1a9ae
-https://vietmitv.id.vn/c.php?k=41480ce
+https://vietmitv.id.vn/c.php?k=66cd51bd9f826250
 
 #EXTINF:-1 tvg-id="woman" group-title="In The Box" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/woman.png", Woman
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a7c942778e874d43be92b8d0a0cd11b4:6d54358306571658ffdb952c6560688b
-https://vietmitv.id.vn/c.php?k=cea78ea
+https://vietmitv.id.vn/c.php?k=904298f83bf8f8fc
 
 #EXTINF:-1 tvg-id="tvb-vietnam" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/tvb-vietnam.png", TVB Việt Nam
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=acbd0d4
+https://vietmitv.id.vn/c.php?k=24a932f1ddbed2be
 
 #EXTINF:-1 tvg-id="warnertv" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/warnertv.png", Warner TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=086d09a40bff3a00aa6dd4dbaf9c13b2:34f1908cfe2e05ee060046d40f14aec9
-https://vietmitv.id.vn/c.php?k=ec376f1
+https://vietmitv.id.vn/c.php?k=8e2e6b0ad094042e
 
 #EXTINF:-1 tvg-id="hbo" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/hbo.png", HBO
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=09ddfe3d63863cafaeb79d0546b098ab:3de0f38dcf014827dfd5bec38743c6a2
-https://vietmitv.id.vn/c.php?k=2637738
+https://vietmitv.id.vn/c.php?k=4644b6539c2b01ef
 
 #EXTINF:-1 tvg-id="cinemaworld" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/cinemaworld.png", CinemaWorld
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ee7915564d7439d09bd3556ffccc87a4:b35e12a75a42a6f9184723a90ff42d9c
-https://vietmitv.id.vn/c.php?k=d95e17a
+https://vietmitv.id.vn/c.php?k=86fa514c8c5a9a2d
 
 #EXTINF:-1 tvg-id="axn" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/axn.png", AXN
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9d29f87efdec3c9fab368f724a62ad0e:6f1c09c035eab36323d60d1454db3d20
-https://vietmitv.id.vn/c.php?k=495467e
+https://vietmitv.id.vn/c.php?k=5ca63a0b8c7f8a19
 
 #EXTINF:-1 tvg-id="cinemax" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/cinemax.png", Cinemax
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=acb4c23471063327adc732e283c0847f:e9868f5f473d0fd8699ede48d531c2b0
-https://vietmitv.id.vn/c.php?k=d8225fc
+https://vietmitv.id.vn/c.php?k=7cec2562df0b32c5
 
 #EXTINF:-1 tvg-id="cartoonnetwork" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/cartoonnetwork.png", Cartoon Network
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3c20166660a93a75ac77db81567389f7:3cc1add43aecce3fe31c9c6a2a5b8c21
-https://vietmitv.id.vn/c.php?k=b9d73b7
+https://vietmitv.id.vn/c.php?k=2740d958315d8330
 
 #EXTINF:-1 tvg-id="cartoonito" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/cartoonito.png", Cartoonito
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b1f0d759e914369db388b3b0dc815971:5678d317e17007a88a9b9539e4526512
-https://vietmitv.id.vn/c.php?k=bb32390
+https://vietmitv.id.vn/c.php?k=949e554e5eabad4e
 
 #EXTINF:-1 tvg-id="bbc-cbeebies" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/bbc-cbeebies.png", BBC Cbeebies
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cca73a006b4b39a595207ceb5ed9ca0a:b833d1f40c261ef78896f97e06f80cdc
-https://vietmitv.id.vn/c.php?k=58d69ad
+https://vietmitv.id.vn/c.php?k=2048caba5ae6307d
 
 #EXTINF:-1 tvg-id="dmax" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/dmax.png", Dmax
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=53b26f904ae03a20b56477cfb9c5dca2:0c64ccfb978e7390bd33344075492aec
-https://vietmitv.id.vn/c.php?k=6564569
+https://vietmitv.id.vn/c.php?k=91fd7ec2976e12bc
 
 #EXTINF:-1 tvg-id="dreamworks" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/dreamworks.png", Dreamworks
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=67dae20527c63dadaaae609aa91577cb:59328f621d56767bc5ff9404a8940683
-https://vietmitv.id.vn/c.php?k=83d67d2
+https://vietmitv.id.vn/c.php?k=4f8e4b1df326bb91
 
 #EXTINF:-1 tvg-id="davinci" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/davinci.png", Davinci
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=256a40e
+https://vietmitv.id.vn/c.php?k=4c391a84c9633ef2
 
 #EXTINF:-1 tvg-id="kix" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/kix.png", Kix
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=f6498e8
+https://vietmitv.id.vn/c.php?k=efa3a413e6c10a76
 
 #EXTINF:-1 tvg-id="animal-planet" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/animal-planet.png", Animal-planet
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ec6f072c7125377a9bc0ae61598095f4:1d5388e0781415ebcec9914f5ad75875
-https://vietmitv.id.vn/c.php?k=2a91cab
+https://vietmitv.id.vn/c.php?k=a1c43ecee3142bde
 
 #EXTINF:-1 tvg-id="outdoorhd" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/outdoorhd.png", Outdoor HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a7c942778e874d43be92b8d0a0cd11b4:6d54358306571658ffdb952c6560688b
-https://vietmitv.id.vn/c.php?k=d47ccbe
+https://vietmitv.id.vn/c.php?k=97b8b63a34618b8a
 
 #EXTINF:-1 tvg-id="channelnewsasia" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/channelnewsasia.png", Channel News Asia
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=67913e4
+https://vietmitv.id.vn/c.php?k=e47519e6c738f235
 
 #EXTINF:-1 tvg-id="tv5monde" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/tv5monde.png", TV5
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=8b96ab8
+https://vietmitv.id.vn/c.php?k=fd70eaf55b8ad286
 
 #EXTINF:-1 tvg-id="discovery" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/discovery.png", Discovery
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eb4160ea553a321d899553e4e796fec2:bea5a07157e0c4d17b11ab399517f952
-https://vietmitv.id.vn/c.php?k=21fa5c2
+https://vietmitv.id.vn/c.php?k=567304155a4cc5a6
 
 #EXTINF:-1 tvg-id="tlc" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/tlc.png", Travel Living Channel
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b6908629732639ada4814a6208296d9c:7ca9bf03623f77b5e2f16df0b53f274d
-https://vietmitv.id.vn/c.php?k=1ec1cf6
+https://vietmitv.id.vn/c.php?k=b67394734333293f
 
 #EXTINF:-1 tvg-id="discoveryasia" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/discoveryasia.png", Discovery Asia
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=934907b134be3963a6263a453846924c:788e2835fb98568aed2f47bbdc091515
-https://vietmitv.id.vn/c.php?k=40863f2
+https://vietmitv.id.vn/c.php?k=b693e9402a6c954e
 
 #EXTINF:-1 tvg-id="fashiontv" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/fashiontv.png",  Fashion TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c1d9f25701023508bfa6737e3a8c7001:30c3613e9b06e0f7cc201014f31bf5d8
-https://vietmitv.id.vn/c.php?k=6f1c9ae
+https://vietmitv.id.vn/c.php?k=e2274e6cafda91a9
 
 #EXTINF:-1 tvg-id="afnhd" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/afnhd.png", Asia Food Network HD
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=3d89a42
+https://vietmitv.id.vn/c.php?k=015d8363a37e0a25
 
 #EXTINF:-1 tvg-id="hgtv" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/hgtv.png", HGTV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://vietmitv.id.vn/c.php?k=73eb5ad
+https://vietmitv.id.vn/c.php?k=78d0ce6ae5ebab98
 
 #EXTINF:-1 tvg-id="kbsworld" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/kbsworld.png", KBS World
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=24f27c7
+https://vietmitv.id.vn/c.php?k=de55dd1c30425798
 
 #EXTINF:-1 tvg-id="nhkworld" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/nhkworld.png", NHK World Japan
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=456abac
+https://vietmitv.id.vn/c.php?k=821cc0a76b9ae654
 
 #EXTINF:-1 tvg-id="nhk_premium" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/nhk_premium.png", NHK Premium
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=b44b10b
+https://vietmitv.id.vn/c.php?k=3714b1cfca8cac1f
 
 #EXTINF:-1 tvg-id="france24" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/france24.png", France 24
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=3c83c2e
+https://vietmitv.id.vn/c.php?k=61ba002639c4e0c8
 
 #EXTINF:-1 tvg-id="cnbcsd" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/cnbcsd.png", CNBC SD
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=f4abdee
+https://vietmitv.id.vn/c.php?k=878728aea2f68799
 
 #EXTINF:-1 tvg-id="historyhd" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/historyhd.png", History HD
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=dd46f8a
+https://vietmitv.id.vn/c.php?k=305d4427559fc994
 
 #EXTINF:-1 tvg-id="dw" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/dw.png", DW - Deutsche Welle
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=3f1aca9
+https://vietmitv.id.vn/c.php?k=0c33f1bb2e61a86e
 
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/cnn.png", CNN
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=714cc8ed05a03abb9ac61bd4bbd1d8a0:1acf58ff8d4cd87c2d3c12d22248efb1
-https://vietmitv.id.vn/c.php?k=440428e
+https://vietmitv.id.vn/c.php?k=eba2439a51a6257a
 
 #EXTINF:-1 tvg-id="arirang" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/arirang.png", Arirang
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietmitv.id.vn/c.php?k=46c44c3
+https://vietmitv.id.vn/c.php?k=870c56b7cc5a7762
 
 #EXTINF:-1 tvg-id="bloomberg" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/bloomberg.png", Bloomberg
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1071393f8fc237f3a9a28028142110f7:7a0f8c3c72e0ffff811d534c929c57c2
-https://vietmitv.id.vn/c.php?k=e9c6055
+https://vietmitv.id.vn/c.php?k=6c17be5fefd3d129
 
 #EXTINF:-1 tvg-id="bbclifestyle" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/bbclifestyle.png", BBC Lifestyle
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=58b949986ed13294bc01b0f330abc527:23e8c5f2fe202906ac2d6554d9527299
-https://vietmitv.id.vn/c.php?k=57afc23
+https://vietmitv.id.vn/c.php?k=6e9d9000aa6e2e73
 
 #EXTINF:-1 tvg-id="bbcnews" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/bbcnews.png", BBC World News
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c7ba46086dda345a929e29bf155e459c:d374b8f39904bf572689ea347ae86591
-https://vietmitv.id.vn/c.php?k=82aa533
+https://vietmitv.id.vn/c.php?k=edd17cbf576e0ecd
 
 #EXTINF:-1 tvg-id="bbcearth" group-title="Quốc Tế" tvg-logo="https://vietmitv.id.vn/logos/vietng228-20261013/bbcearth.png", BBC Earth
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5014941a2c42379880b5edf72304c165:f3fa0fe3cd39a52f4eefd36ff7161e89
-https://vietmitv.id.vn/c.php?k=661b74d
+https://vietmitv.id.vn/c.php?k=384ccba07667b439
 
 #EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/enc-cctv1.png" tvg-id="enc-cctv1" tvg-name="CCTV1" group-title="🇨🇳| Trung Quốc",CCTV1
 #KODIPROP:inputstream.adaptive.manifest_type=hls
